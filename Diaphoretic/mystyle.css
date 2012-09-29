@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'bnazanin';
+    src: url('fonts/bnazanin-webfont.eot');
+    src: url('fonts/bnazanin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bnazanin-webfont.woff') format('woff'),
+         url('fonts/bnazanin-webfont.ttf') format('truetype'),
+         url('fonts/bnazanin-webfont.svg#2MitraBoldBold') format('svg');
+	font-weight: normal;
+	font-style : normal;
+}
 *{
 	margin:0;
 	padding:0;	
