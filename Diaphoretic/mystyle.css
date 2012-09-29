@@ -29,6 +29,16 @@ body > * > * * {
 }
 
 /**** header ******/
+div.corner{
+	outline:none;
+	background-image:url('images/corner.png');
+	background-size:cover;
+	width:114px;
+	height:114px;
+	right:0;
+	top:0;
+	float:right;
+}
 div.container{
 	min-height:760px;
 }
