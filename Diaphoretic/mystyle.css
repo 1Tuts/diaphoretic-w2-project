@@ -20,16 +20,26 @@ body > * > * * {
 }
 
 /**** header ******/
-
+div.container{
+	min-height:1115px;
+}
 div.container .logo{
 	height:355px;	
 	width:240px;
 	color:transparent;
 }
-div.container .menu{
+div.container .header{
 	height:230px;	
 	width:705px;
 	margin-left:245px;
+}
+div.container .tooltip{
+	height:148px;
+	width:705px;
+}
+div.container .menu{
+	height:79px;
+	width:705px;
 }
 div.container .slideshow{
 	width:705px;
@@ -45,6 +55,21 @@ div.container .gallery{
 	width:705px;
 	height:350px;
 	float:right;
+}
+div.container .part1{
+	float:left;
+	height:350px;
+	width:275px;	
+}
+div.container .part2{
+	float:left;
+	height:350px;
+	width:220px;
+}
+div.container .part3{
+	height:350px;
+	width:210px;	
+	margin-left:495px;
 }
 div.container .footer{
 	height:145px;
