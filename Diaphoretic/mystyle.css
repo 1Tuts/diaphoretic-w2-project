@@ -30,13 +30,10 @@ body > * > * * {
 
 /**** header ******/
 div.corner{
-	outline:none;
 	background-image:url('images/corner.png');
 	background-size:cover;
 	width:114px;
 	height:114px;
-	right:0;
-	top:0;
 	float:right;
 }
 div.container{
@@ -62,6 +59,7 @@ div.container .menu{
 }
 div.container .menu ul{
 	list-style-type:none;
+	outline:none;
 	float:right;
 	width:705px;	
 }
@@ -71,9 +69,16 @@ div.container .menu li{
 	-ms-border-radius:5px;
 	-o-border-radius:5px;
 	border-radius:5px;
-	margin:25px 20px 0 35px;
+	margin:25px 15px 0 35px;
 	border:solid 1px black;
-	opacity:0.62;
+	-webkit-box-shadow:5px 6px 8px 2px #111;
+	-moz-box-shadow:5px 6px 8px 2px #111;
+	-ms-box-shadow:5px 6px 8px 2px #111;
+	-o-box-shadow:5px 6px 8px 2px #111;
+	box-shadow:5px 6px 8px 2px #111;
+	background-image:url('images/list-bg.jpg');
+	outline:none;
+	opacity:0.72;
 	float:right;	
 }
 div.container .menu li:first-child{
@@ -87,9 +92,10 @@ div.container .menu a{
 	outline:none;
 	display:block;
 	text-decoration:none;
-	padding:10px 34px 6px 40px ;
-	color:#f6e3bd;
+	padding:10px 34px 8px 40px ;
+	color:#f6c3ad;
 	opacity:1;
+	font-size:18px;
 }
 
 /**** slideshow ******/
