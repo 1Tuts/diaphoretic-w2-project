@@ -72,7 +72,6 @@ div.container .menu li{
 	-o-border-radius:5px;
 	border-radius:5px;
 	margin:25px 20px 0 35px;
-	padding:10px 34px 6px 40px;
 	border:solid 1px black;
 	opacity:0.62;
 	float:right;	
@@ -84,9 +83,11 @@ div.container .menu li:last-child{
 	margin-left:5px !important;	
 	float:left;	
 }
-div.container .menu li a{
+div.container .menu a{
 	outline:none;
+	display:block;
 	text-decoration:none;
+	padding:10px 34px 6px 40px ;
 	color:#f6e3bd;
 	opacity:1;
 }
