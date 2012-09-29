@@ -3,9 +3,8 @@
 	padding:0;	
 }
 body{
-	background-image:url('images/background.png');
-	background-position: center top;
-	background-repeat: no-repeat;
+	background-image:url(images/bg.jpg);
+	background-repeat: repeat-x;
 }
 body > * {
 	outline: 1px dashed blue;
@@ -21,7 +20,7 @@ body > * > * * {
 
 /**** header ******/
 div.container{
-	min-height:1115px;
+	min-height:760px;
 }
 div.container .logo{
 	height:355px;	
@@ -41,38 +40,48 @@ div.container .menu{
 	height:79px;
 	width:705px;
 }
+
+/**** slideshow ******/
 div.container .slideshow{
 	width:705px;
 	height:390px;
 	float:right;
 }
+
+/**** left section *****/
 div.container .leftside{
 	float:left;
 	width:240px;
-	height:615px;	
+	height:410px;	
 }
+
+/***** productions ******/
 div.container .gallery{
 	width:705px;
-	height:350px;
+	height:140px;
 	float:right;
 }
 div.container .part1{
 	float:left;
-	height:350px;
+	height:140px;
 	width:275px;	
 }
 div.container .part2{
 	float:left;
-	height:350px;
+	height:140px;
 	width:220px;
 }
 div.container .part3{
-	height:350px;
+	height:140px;
 	width:210px;	
 	margin-left:495px;
 }
-div.container .footer{
-	height:145px;
-	width:950px;
-	float:left;
+
+/***** foooter section *******/
+.footer{
+	background-repeat:repeat-x;
+	left:0;
+	right:0;
+	background-image:url(images/footer.jpg);
+	height:245px;
 }
