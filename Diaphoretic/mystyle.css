@@ -40,6 +40,36 @@ div.container .menu{
 	height:79px;
 	width:705px;
 }
+div.container .menu ul{
+	list-style-type:none;
+	float:right;
+	width:705px;	
+}
+div.container .menu li{
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	margin:25px 20px 0 35px;
+	padding:10px 34px 6px 40px;
+	border:solid 1px black;
+	opacity:0.62;
+	float:right;	
+}
+div.container .menu li:first-child{
+	margin-right:5px !important;	
+}
+div.container .menu li:last-child{
+	margin-left:5px !important;	
+	float:left;	
+}
+div.container .menu li a{
+	outline:none;
+	text-decoration:none;
+	color:#f6e3bd;
+	opacity:1;
+}
 
 /**** slideshow ******/
 div.container .slideshow{
