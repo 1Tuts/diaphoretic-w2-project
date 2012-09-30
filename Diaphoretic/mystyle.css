@@ -1,3 +1,144 @@
-@charset "utf-8";
-/* CSS Document */
+@font-face{
+    font-family: 'bnazanin';
+    src: url('fonts/bnazanin-webfont.eot');
+    src: url('fonts/bnazanin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bnazanin-webfont.woff') format('woff'),
+         url('fonts/bnazanin-webfont.ttf') format('truetype'),
+         url('fonts/bnazanin-webfont.svg#2MitraBoldBold') format('svg');
+	font-weight: normal;
+	font-style : normal;
+}
+*{
+	margin:0;
+	padding:0;	
+}
+body{
+	background-image:url(images/bg.jpg);
+	background-repeat: repeat-x;
+}
+body > * {
+	outline: 1px dashed blue;
+}
 
+body > * > * {
+	outline: 2px dotted red;
+}
+
+body > * > * * {
+	outline: 2px dashed green;
+}
+
+/**** header ******/
+div.corner{
+	background-image:url('images/corner.png');
+	background-size:cover;
+	width:114px;
+	height:114px;
+	float:right;
+}
+div.container{
+	min-height:760px;
+}
+div.container .logo{
+	height:355px;	
+	width:240px;
+	color:transparent;
+}
+div.container .header{
+	height:230px;	
+	width:705px;
+	margin-left:245px;
+}
+div.container .tooltip{
+	height:148px;
+	width:705px;
+}
+div.container .menu{
+	height:79px;
+	width:705px;
+}
+div.container .menu ul{
+	list-style-type:none;
+	outline:none;
+	float:right;
+	width:705px;	
+}
+div.container .menu li{
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	margin:25px 15px 0 35px;
+	border:solid 1px black;
+	-webkit-box-shadow:5px 6px 8px 2px #111;
+	-moz-box-shadow:5px 6px 8px 2px #111;
+	-ms-box-shadow:5px 6px 8px 2px #111;
+	-o-box-shadow:5px 6px 8px 2px #111;
+	box-shadow:5px 6px 8px 2px #111;
+	background-image:url('images/list-bg.jpg');
+	outline:none;
+	opacity:0.72;
+	float:right;	
+}
+div.container .menu li:first-child{
+	margin-right:5px !important;	
+}
+div.container .menu li:last-child{
+	margin-left:5px !important;	
+	float:left;	
+}
+div.container .menu a{
+	outline:none;
+	display:block;
+	text-decoration:none;
+	padding:10px 34px 8px 40px ;
+	color:#f6c3ad;
+	opacity:1;
+	font-size:18px;
+}
+
+/**** slideshow ******/
+div.container .slideshow{
+	width:705px;
+	height:390px;
+	float:right;
+}
+
+/**** left section *****/
+div.container .leftside{
+	float:left;
+	width:240px;
+	height:410px;	
+}
+
+/***** productions ******/
+div.container .gallery{
+	width:705px;
+	height:140px;
+	float:right;
+}
+div.container .part1{
+	float:left;
+	height:140px;
+	width:275px;	
+}
+div.container .part2{
+	float:left;
+	height:140px;
+	width:220px;
+}
+div.container .part3{
+	height:140px;
+	width:210px;	
+	margin-left:495px;
+}
+
+/***** foooter section *******/
+.footer{
+	background-repeat:repeat-x;
+	left:0;
+	right:0;
+	background-image:url(images/footer.jpg);
+	height:245px;
+}
