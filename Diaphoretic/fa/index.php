@@ -1,6 +1,6 @@
 <?php
 	$page = 'home';
-	$lang = 'pr';
+	$lang = 'fa';
 	include "header.php";
 	include "menu.php";
 	include "content-index.php";
