@@ -11,20 +11,19 @@
 				<div class="clear"></div>
 			</div>
 			<div class="menu">
-				<ul>
-					<li>
-						<a href="./index.php">Home</a>
-					</li>
-					<li>
-						<a href="./product.php">Product</a>
-					</li>
-					<li>
-						<a href="#">Diaphoretic</a>
-					</li>
-					<li>
-						<a href="#">About Us</a>
-					</li>
-				</ul>
+				<?php
+						wp_nav_menu(array(
+							'theme_location'  => 'mainmenu',
+							'container'       => false, 
+							'container_class' => '', 
+							'menu_class'      => '', 
+							'before'          => '',
+							'after'           => '',
+							'link_before'     => '',
+							'link_after'      => '',
+							'items_wrap'      => '<ul class="%2$s">%3$s</ul>'
+						));
+				?>
 			</div>
 			<div class="clear"></div>
 		</div>
