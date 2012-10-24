@@ -569,13 +569,10 @@ div.pd div.sidebar div.submit{
 	float:right;
 }
 div.pd div.content div.image{
-	width:650px;
-	height:300px;
 	margin-right: 25px;
 	float:right;
 }
 div.pd div.content div.explain{
-	width:650px;
 	margin-top: 10px;
 	min-height:150px;
 	margin-right: 25px;
@@ -600,4 +597,16 @@ div.pd div.content div.explain p{
 	font-size: 25px;
 	color:#ece0c5;
 	line-height: 30px;	
+}
+
+
+/***********************************************About-Us****************************************************************/
+div.container-aboutus{
+	min-height: 400px;
+}
+
+
+/***********************************************Diaphoretic****************************************************************/
+div.container-diaphoretic{
+	min-height: 400px;
 }
